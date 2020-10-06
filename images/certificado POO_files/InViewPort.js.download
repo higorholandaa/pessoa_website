@@ -1,0 +1,1 @@
+(function(n,t){n.fn.inViewport=function(i){return this.each(function(r,u){function f(){var t=n(this).height(),r=u.getBoundingClientRect(),f=r.top,e=r.bottom;return i.call(u,Math.max(0,f>0?t-f:e<t?e:t))}f();n(t).on("resize scroll",f)})}})(jQuery,window)
